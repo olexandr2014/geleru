@@ -1,0 +1,48 @@
+body {
+margin:0 ;
+padding:0 ;
+}
+.container{
+    width: 1200px; ;
+    margin: 0px  auto;
+}
+.header{
+    background-color:#0890ff; 
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 0 px;
+list-style: none ;
+}
+.link{
+    display: block;
+    padding: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color:black ;
+    background-color: rgb(255, 243, 110);
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px #6c02eeec;
+
+}
+.link:hover{
+    font-weight: 700;
+}
+.gallery{
+background-color: blueviolet;
+}
+.gallery-list{
+    margin-top: 0cap;
+}
+.gallery-list{
+    margin-bottom: 0px;
+}
+.link{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgb(13, 116, 95) 0%, rgba(10,180,212,1) 50%, rgba(252,176,69,1) 100%);
+}
+.gallery-list{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(83,195,21,0.768032212885154) 100%);
+}
